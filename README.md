@@ -48,7 +48,7 @@ http://localhost:3000.
 ```
 The bot will automatically start polling if a valid token is saved.
 
-To stop, press Ctrl+C.
+To stop, press `Ctrl+C`.
 
 ---
 
@@ -83,29 +83,30 @@ telegram-bot-builder-V2/
 
 ## 🔌 API Endpoints (Dashboard consumes these)
 
-Method Endpoint Description
-GET /api/config Get bot configuration
-POST /api/config Update config & restart bot
-GET /api/commands List commands
-POST /api/commands Add command
-PUT /api/commands/:id Edit command
-DELETE /api/commands/:id Delete command
-GET /api/autoreplies List auto-replies
-... ... CRUD for autoreplies
-GET /api/menu Get menu layout
-POST /api/menu Save menu layout
-GET /api/users List saved users
-POST /api/broadcast Send broadcast message
-GET /api/stats Get statistics
-POST /api/test-ai Test AI provider
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **GET** | `/api/config` | Get bot configuration |
+| **POST** | `/api/config` | Update config & restart bot |
+| **GET** | `/api/commands` | List commands |
+| **POST** | `/api/commands` | Add command |
+| **PUT** | `/api/commands/:id` | Edit command |
+| **DELETE** | `/api/commands/:id` | Delete command |
+| **GET** | `/api/autoreplies` | List auto-replies |
+| *...* | *...* | CRUD for autoreplies |
+| **GET** | `/api/menu` | Get menu layout |
+| **POST** | `/api/menu` | Save menu layout |
+| **GET** | `/api/users` | List saved users |
+| **POST** | `/api/broadcast` | Send broadcast message |
+| **GET** | `/api/stats` | Get statistics |
+| **POST** | `/api/test-ai` | Test AI provider |
 
 ---
 
 ## 🧠 Supported AI Providers
 
-· OpenAI (GPT-3.5, GPT-4)
-· Google Gemini (gemini-pro)
-· Anthropic (Claude 3 Opus, etc.)
+- OpenAI (GPT-3.5, GPT-4)
+- Google Gemini (gemini-pro)
+- Anthropic (Claude 3 Opus, etc.)
 
 Enter API key and model in the Config panel.
 
@@ -119,9 +120,9 @@ This tool is designed for local use. Do not expose the dashboard to the public i
 
 ## 🛠 Troubleshooting
 
-· Bot not responding? Check token validity and internet connection.
-· AI error? Ensure API key and model name are correct.
-· Port conflict? Change PORT environment variable.
+- Bot not responding? Check token validity and internet connection.
+- AI error? Ensure API key and model name are correct.
+- Port conflict? Change PORT environment variable.
 
 ---
 
@@ -133,11 +134,10 @@ For permanent hosting, use a VPS with Node.js. You can also deploy to platforms 
 
 ## 📄 License
 
-MIT. Use responsibly. SPY-E & 123Tool.
+MIT. Use responsibly. **SPY-E & 123Tool.**
 
 ---
 
 ## ⭐ Support
 
-If you find this project useful, give it a star on GitHub!
----
+If you find this project useful, give it a **star** on GitHub!
