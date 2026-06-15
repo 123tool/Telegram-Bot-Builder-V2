@@ -83,22 +83,22 @@ telegram-bot-builder-V2/
 
 ## 🔌 API Endpoints (Dashboard consumes these)
 
-| Method | Endpoint | Description |
+| method | endpoint | description |
 | :--- | :--- | :--- |
-| **GET** | `/api/config` | Get bot configuration |
-| **POST** | `/api/config` | Update config & restart bot |
-| **GET** | `/api/commands` | List commands |
-| **POST** | `/api/commands` | Add command |
-| **PUT** | `/api/commands/:id` | Edit command |
-| **DELETE** | `/api/commands/:id` | Delete command |
-| **GET** | `/api/autoreplies` | List auto-replies |
-| *...* | *...* | CRUD for autoreplies |
-| **GET** | `/api/menu` | Get menu layout |
-| **POST** | `/api/menu` | Save menu layout |
-| **GET** | `/api/users` | List saved users |
-| **POST** | `/api/broadcast` | Send broadcast message |
-| **GET** | `/api/stats` | Get statistics |
-| **POST** | `/api/test-ai` | Test AI provider |
+| <small>get</small> | <small>`/api/config`</small> | <small>get bot configuration</small> |
+| <small>post</small> | <small>`/api/config`</small> | <small>update config & restart bot</small> |
+| <small>get</small> | <small>`/api/commands`</small> | <small>list commands</small> |
+| <small>post</small> | <small>`/api/commands`</small> | <small>add command</small> |
+| <small>put</small> | <small>`/api/commands/:id`</small> | <small>edit command</small> |
+| <small>delete</small> | <small>`/api/commands/:id`</small> | <small>delete command</small> |
+| <small>get</small> | <small>`/api/autoreplies`</small> | <small>list auto-replies</small> |
+| <small>...</small> | <small>`...`</small> | <small>crud for autoreplies</small> |
+| <small>get</small> | <small>`/api/menu</small>` | <small>get menu layout</small> |
+| <small>post</small> | <small>`/api/menu`</small> | <small>save menu layout</small> |
+| <small>get</small> | <small>`/api/users`</small> | <small>list saved users</small> |
+| <small>post</small> | <small>`/api/broadcast`</small> | <small>send broadcast message</small> |
+| <small>get</small> | <small>`/api/stats`</small> | <small>get statistics</small> |
+| <small>post</small> | <small>`/api/test-ai`</small> | <small>test ai provider</small> |
 
 ---
 
