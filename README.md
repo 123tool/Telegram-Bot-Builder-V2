@@ -1,10 +1,6 @@
-# 🤖 Telegram Bot Builder
+## 🤖 Telegram Bot Builder
 
 **Professional Telegram bot management dashboard** that runs entirely on Termux/localhost. Build custom commands, auto-replies, menu buttons, broadcast to users, and connect AI providers – all from a sleek web interface.
-
-> **Author**: SPY-E & 123Tool  
-> **License**: MIT  
-> **Status**: Production-Ready
 
 ---
 
